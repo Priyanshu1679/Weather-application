@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.search input {
+    width: 70%;
+    padding: 5px;
+}
+
+.search button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.weather {
+    margin-top: 20px;
+}
